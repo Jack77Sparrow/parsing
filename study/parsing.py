@@ -1,12 +1,11 @@
-
-
-
 import requests
 from urllib.parse import urljoin
 import bs4
 import os
 
 request = requests.get("https://gocsgo.net/guides/advice/avatarki-dlya-doty/")
+
+
 
 beautifull_soup = bs4.BeautifulSoup(request.text, 'html.parser')
 
