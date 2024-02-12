@@ -44,7 +44,7 @@ for img in photo:
                 img_url = urljoin("https://gocsgo.net/guides/advice/avatarki-dlya-doty/", img_url)
                 img_name = os.path.basename(img_url)
                 img_path = os.path.join('study/images', img_name)
-                
+
                 # Download the image
                 img_data = requests.get(img_url).content
 
